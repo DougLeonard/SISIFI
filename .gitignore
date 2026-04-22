@@ -1,0 +1,27 @@
+build/**
+html/**
+docs/html/**
+!docs/html/dot*.svg
+public/**
+latex/**
+docs/latex/**
+/share
+
+
+# Ignore other user-specific or temporary files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/vcs.xml
+
+# Ignore local history and caches
+.idea/caches/
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/jsLibraryMappings.xml
+
+*.swp
+geotree.txt
+build/
