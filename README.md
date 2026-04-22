@@ -1,5 +1,5 @@
 # Subscribable-Inheritance Shadow Interfaces (SISI) and the SISI Fluent Idiom (SISIFI)  for C++
-*A Novel C#-equivalent, simple, highly-native, zero-overhead, polymorphic fluent design for C++, by D.S Leonard.*
+*A Novel C#-equivalent, simple, highly-native, zero-overhead, polymorphic fluent design for C++, by Douglas S. Leonard.*
 
 I only figured this out after, or while, writing [DLG4::VolumeBuilders](dsleonard-coding.github-io/VolumeBuilders).  The type-erased CRTP method used in VolumeBuilders is nice to avoid boilerplate wrappers, but it's a bit abstract, and saying it wasn't simple to get right is a huge understatement. The common types are actually concrete builders that can be constructed from other builders by linking to their data.  Getting views, cloning, and (limited) polymorphism right is/was very hard.  
 
